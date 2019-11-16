@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:text="Cantidad de bebidas pequeñas:"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/tvCantSmall"
         tools:layout_editor_absoluteX="1dp" />
 
     <TextView
@@ -76,7 +76,7 @@
         tools:layout_editor_absoluteX="1dp" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/tvCantSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
@@ -85,22 +85,22 @@
         app:layout_constraintTop_toTopOf="@+id/divider" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/tvCantMed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:text="TextView"
         app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCantSmall" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/tvCantBig"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="TextView"
         app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCantMed" />
 
     <TextView
         android:id="@+id/textView13"
@@ -133,7 +133,7 @@
         tools:layout_editor_absoluteX="1dp" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/tvCantSoda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -144,7 +144,7 @@
         app:layout_constraintTop_toTopOf="@+id/divider2" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/tvCantCold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -152,10 +152,10 @@
         android:layout_marginTop="36dp"
         android:text="TextView"
         app:layout_constraintStart_toEndOf="@+id/textView15"
-        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCantHot" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/tvCantHot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -163,5 +163,5 @@
         android:layout_marginTop="36dp"
         android:text="TextView"
         app:layout_constraintStart_toEndOf="@+id/textView14"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        app:layout_constraintTop_toBottomOf="@+id/tvCantSoda" />
 </androidx.constraintlayout.widget.ConstraintLayout>

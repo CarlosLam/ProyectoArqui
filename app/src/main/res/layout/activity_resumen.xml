@@ -47,10 +47,11 @@
         app:layout_constraintTop_toBottomOf="@+id/txtTama" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btnConfirmarRes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="108dp"
+        android:onClick="btnConfirmarVoid"
         android:text="Confirmar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
